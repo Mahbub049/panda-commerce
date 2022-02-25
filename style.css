@@ -19,3 +19,41 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+
+    background-image: linear-gradient(to right, rgb(221, 156, 35) 0%, rgb(241, 207, 11) 100%);
+}
+.cat2{
+    background-image: linear-gradient(to left, orchid 0%, rgb(185, 104, 182) 100%);
+}
+.cat3{
+    background-image: linear-gradient(to left, blue 0%, rgb(34, 85, 251) 100%);
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: grey;
+}
+footer{
+    text-align: center;
+}
